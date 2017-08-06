@@ -241,10 +241,10 @@
                     // Grab the result from the AJAX post so that the best match's name and photo are displayed.
                     $("#matchName").text(data.name);
                     $('#matchImg').attr("src", data.photo)
-                    // I tried to make it so the image would always fit into the display box but for some reason it wouldnt work
+                    // I added image sizing to correct any large images
                     $('#matchImg').css({
-                        'width': '500px',
-                        'height': '500px'
+                        'width': '100%',
+                        'height': '100%'
                     });;
 
                     // Show the modal with the best match 
