@@ -34,7 +34,7 @@
         <input type="text" name="" id="photo" class="form-control" required>
 
         <hr>
-
+        <!--list of questions to ask user  -->
         <h3><strong>Question 1</strong></h3>
         <h4>Your mind is always buzzing with unexplored ideas and plans.</h4>
         <select data-placeholder="" class="chosen-select" id="q1">
@@ -160,7 +160,7 @@
         <hr>
         <footer class="footer">
             <div class="container">
-                <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/afhaque/friendfinder">GitHub Repo</a></p>
+                <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/Phireous/friendFinder">GitHub Repo</a></p>
             </div>
         </footer>
 
@@ -241,6 +241,7 @@
                     // Grab the result from the AJAX post so that the best match's name and photo are displayed.
                     $("#matchName").text(data.name);
                     $('#matchImg').attr("src", data.photo)
+                    // I tried to make it so the image would always fit into the display box but for some reason it wouldnt work
                     $('#matchImg').css({
                         'width': '500px',
                         'height': '500px'
