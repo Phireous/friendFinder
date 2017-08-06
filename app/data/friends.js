@@ -1,6 +1,6 @@
 var friends = [{
   "name":"Ahmed",
-  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+  "photo":"http://clipartix.com/wp-content/uploads/2016/05/Happy-face-clip-art-smiley-face-clipart-3-clipartcow.jpg",
   "scores":[
       "5",
       "1",
